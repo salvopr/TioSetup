@@ -4,7 +4,7 @@ err=0
 trap 'err=1' ERR
 
 yum -y install python-pip python36u python36u-devel python36u-pip
-ln -s /usr/bin/python3.6 /usr/local/bin/python3
+ln -s /usr/bin/python3.6 /usr/bin/python3
 
 dnf install  chicken clojure  erlang-erts fish gtkglext-libs lttng-tools lttng-ust maxima octave octave-devel perl-Digest-CRC pyephem pypy rakudo rust -y
 # missing
