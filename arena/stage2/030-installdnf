@@ -8,7 +8,7 @@ ln -s /usr/bin/python3.6 /usr/bin/python3
 
 dnf install  chicken clojure  erlang-erts fish gtkglext-libs lttng-tools lttng-ust maxima octave octave-devel perl-Digest-CRC pyephem pypy rakudo rust -y
 # missing
-#dnf allegro5-devel bsd-games clisp dash gforth julia ncurses-compat-libs pl R-littler rubygem-treetop  -y
+#dnf allegro5-devel bsd-games clisp dash gforth ncurses-compat-libs pl R-littler rubygem-treetop  -y
 #dnf install java-9-openjdk-devel neovim -y
 
 dnf install ant bison bison-devel clang cmake3 emacs-nox \
@@ -32,7 +32,7 @@ dnf install ocaml patch pcre-devel \
 
 yum -y install centos-release-scl
 yum -y install devtoolset-4-gcc*
-scl enable devtoolset-4 bash
+HOME=/root scl enable devtoolset-4 bash
 
 
 dnf install \
