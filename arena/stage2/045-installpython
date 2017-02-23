@@ -3,14 +3,6 @@
 err=0
 trap 'err=1' ERR
 
-yum -y install yum-utils
-yum -y install https://centos7.iuscommunity.org/ius-release.rpm
-yum -y install python36u
-ln -s /usr/bin/python3.6 /usr/local/bin/python3
-yum -y install python-pip
-yum -y install python36u-pip
-yum -y install python36u-devel
-
 python3 -m pip install --upgrade pip
 python2 -m pip install --upgrade pip
 python3 -m pip install exrex python-pcre hbcht sympy mathics
