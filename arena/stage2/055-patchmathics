@@ -3,6 +3,6 @@
 err=0
 trap 'err=1' ERR
 
-patch -N /usr/lib/python3.5/site-packages/mathics/builtin/pympler/asizeof.py files/mathics.patch
+patch -N /usr/lib/python3.6/site-packages/mathics/builtin/pympler/asizeof.py files/mathics.patch
 
 exit "$err"
