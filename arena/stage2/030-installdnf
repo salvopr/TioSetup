@@ -12,7 +12,7 @@ dnf install ant bison bison-devel clang cmake emacs-nox \
   
 dnf install golang  -y
 
-#dnf install haskell-platform  -y
+dnf install gmp-c++ gmp-devel libX11-devel -y
 
 dnf install groovy icu java-1.?.0-openjdk ksh -y
 
